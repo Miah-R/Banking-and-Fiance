@@ -1,2 +1,2 @@
 # Banking-and-Fiance
-Semester Project using Linked Lists and Datastructures
+Semester Project using Linked Lists and Data structures
