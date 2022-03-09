@@ -8,5 +8,5 @@ Idea 1: An cashapp like app that works as your personal checking account
 Idea 2: An application that compares the top banking institutions on their services for 
 
 Idea 3: 
-brendon
+brendon miah
 
