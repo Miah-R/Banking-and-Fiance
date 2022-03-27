@@ -1,4 +1,7 @@
 #include <iostream>
+#include <fstream>
+#include <string>
+#include <list>
 using namespace std;
 struct Node {
    int data;
@@ -26,5 +29,29 @@ int main()
    cout<<"the date:";
    cout<<"transactions";
    display();
+   
+   {
+    string chose; //
+
+    cout << "Do you want to receive notifications? "; // outputs the question
+    getline(cin, chose);
+
+    // you can output the response
+    cout << "You chose: " << chose;
+
+    cin.get();
+   }
+   {
+  std::list<int> myTransactions;
+
+  for (int i=10; i<20; ++i) myTransactions.push_back(i);  (I need to change this line to so that it can generate different numbers its going back from 20-10) 
+
+  myTransactions.reverse();
+
+  std::cout << " myTransactions:";
+  for (std::list<int>::iterator it=myTransactions.begin(); it!=myTransactions.end(); ++it)
+    std::cout << ' ' << *it;
+
+  std::cout << '\n';
+   }
    return 0;
-}
