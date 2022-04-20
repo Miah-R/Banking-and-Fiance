@@ -1,10 +1,7 @@
 # Banking-and-Fiance
 Semester Project using Linked Lists and Data structures
 
-#include <iostream>
-using namespace std;
-
-int main() {
+//
     string username;
     string password;
     cout<<" enter username : ";cin>>username;
