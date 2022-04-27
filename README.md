@@ -1,13 +1,7 @@
 # Banking-and-Fiance
 Semester Project using Linked Lists and Data structures
 
-Idea 1: An cashapp like app that works as your personal checking account
-> keep track of bills
-> savings
-
-Idea 2: An application that compares the top banking institutions on their services for 
-
-Idea 3: // include all the libraries first
+// include all the libraries first
 #include <iostream>
 #include <string>
 #include <list>
@@ -60,8 +54,6 @@ if (username == "DrJackson") {
         int curry = 0, value_curry = 0;
         double rate = 0;
         
-        while (1>0)
-        {
           cout << "Convert to 1: Yen, 2: Peso, 3: Euro" << endl;
           cin >> curry;
           
@@ -88,7 +80,7 @@ if (username == "DrJackson") {
             cout << value_curry << "Dollars is "<< rate << "Peso" << endl;
             break;
           }
-        }
+        
     }
         
     nodeType *head = nullptr;
