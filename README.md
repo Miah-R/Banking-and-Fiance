@@ -29,8 +29,6 @@ int main()
     int curry = 0;
     double rate = 0,  value_curry = 0; //both are doubles because user may enter a decimal amount
     
-    while (1>0)// when not added to the linked list, this is used to start
-    {
       cout << "Convert to 1: Yen, 2: Peso, 3: Euro" << endl;
       cin >> curry;
       
@@ -57,7 +55,7 @@ int main()
         cout << value_curry << "Dollars is "<< rate << "Peso" << endl;
         break;
       }
-    }
+    
     
     return 0;
 }
@@ -252,8 +250,6 @@ int main()
     int curry = 0;
     double rate = 0, value_curry = 0;
     
-    while (1>0)
-    {
       cout << "Convert to 1: Yen, 2: Peso, 3: Euro" << endl;
       cin >> curry;
       
@@ -280,7 +276,6 @@ int main()
         cout << value_curry << "Dollars is "<< rate << "Peso" << endl;
         break;
       }
-    }
   //Miah Counts the numbeer of times a business is in the linked list
   string name; // name given by user
   cin >> name;
